@@ -1,0 +1,34 @@
+invite -  Get invite link of chats where the bot is admin. 🔗
+logs -  View recent error logs. 📗
+stats -  Get status of files in the database. 📊
+connections -  See all connected groups. 🌐
+settings -  Open settings menu. ⚙️
+filter -  Add manual filters. 🔍
+filters -  View filters. 📚
+connect -  Connect to PM. 🔗
+disconnect -  Disconnect from PM. 🔗
+del -  Delete a filter. 🗑️
+delall -  Delete all filters. 🗑️
+deleteall -  Delete all indexed files. 🗑️
+delete -  Delete a specific file from the index. 🗑️
+info -  Get user information. 🔍
+id -  Get TG IDs. 🆔
+imdb -  Fetch info from IMDb. 🎬
+search -  Search from various sources. 🔎
+start -  Start the bot. 🏁
+setskip -  Set the number of messages to skip when indexing files. 🔢
+users -  Get a list of users and their IDs. 🧑‍🤝‍🧑
+chats -  Get a list of chats and their IDs. 💬
+leave -  Leave a chat. 🚪
+disable -  Disable a chat. 🔙
+enable -  Re-enable a chat. 🔛
+ban -  Ban a user. 🚫
+unban -  Unban a user. 🔓
+channel -  Get a list of connected channels. 📺
+broadcast -  Broadcast a message to all users. 📢
+grp_broadcast -  Broadcast a message to all connected groups. 🚨
+gfilter -  Add global filters. 🧼
+gfilters -  View the list of all global filters. 📝
+delg -  Delete a specific global filter. 🚫
+delallg -  Delete all global filters from the bot's database. 🚮
+deletefiles -  Delete PreDVDRip and CamRip files from the bot's database. 🗑️

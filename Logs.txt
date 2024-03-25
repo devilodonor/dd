@@ -1,0 +1,47 @@
+[03/20/2024 07:01:12 PM:plugins.index:182:ERROR] Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 351, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 351, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\OneDrive\Desktop\telegram botz\DQ-the-file-donor-main\plugins\index.py", line 156, in index_files_to_db
+    await msg.edit_text(
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2803, in edit_text
+    return await self._client.edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\edit_message_text.py", line 82, in edit_message_text
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\SUBHADEEP SAMUI(PRO)\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
